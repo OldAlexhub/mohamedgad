@@ -1,7 +1,14 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import { Layout, Menu } from "antd";
-import { HomeOutlined, UserOutlined, SmileOutlined } from "@ant-design/icons";
+import {
+  HomeOutlined,
+  UserOutlined,
+  SmileOutlined,
+  ProjectOutlined,
+  FundProjectionScreenOutlined,
+  StockOutlined,
+} from "@ant-design/icons";
 
 const { Header } = Layout;
 
@@ -17,15 +24,17 @@ const LayoutComponent = () => {
           <Menu.Item key="2" icon={<UserOutlined />}>
             <Link to="/aboutme">About</Link>
           </Menu.Item>
-          <Menu.Item key="3" icon={<UserOutlined />}>
+          <Menu.Item key="3" icon={<FundProjectionScreenOutlined />}>
             <Link to="/analysis">Professional Analysis</Link>
           </Menu.Item>
-          <Menu.Item key="4" icon={<UserOutlined />}>
+          <Menu.Item key="4" icon={<StockOutlined />}>
             <Link to="/portfolio">Investment Portfolio</Link>
           </Menu.Item>
-
-          <Menu.Item key="6" icon={<SmileOutlined />}>
+          <Menu.Item key="5" icon={<SmileOutlined />}>
             <Link to="/hobbies">Hobbies</Link>
+          </Menu.Item>
+          <Menu.Item key="6" icon={<ProjectOutlined />}>
+            <Link to="/projects">Projects</Link>
           </Menu.Item>
         </Menu>
       </Header>
