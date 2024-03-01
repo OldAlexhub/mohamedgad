@@ -20,11 +20,18 @@ const AboutMe = () => {
         <Col>
           <h2>Professional Summary</h2>
           <p>
-            Executive-level Business Manager and entrepreneur with experience
-            running start-ups and emerging companies. Strong technology and
-            product development expertise. Build strategic business
-            relationships and partnerships. Strong drive with excellent
-            interpersonal, communication, and team-building skills.
+            An accomplished executive with a proven track record in leading both
+            start-ups and established companies, I specialize in leveraging
+            technology and innovative product development to drive business
+            growth. My career is marked by my ability to build and maintain
+            strategic business relationships and partnerships, underscored by a
+            strong entrepreneurial spirit. With exceptional skills in
+            interpersonal communication, team building, and strategic planning,
+            I have successfully guided teams towards achieving operational
+            excellence and sustainable profitability. My approach combines a
+            data-driven mindset with a commitment to operational improvement,
+            fostering an environment of continuous development and strategic
+            foresight.
           </p>
         </Col>
       </Row>
@@ -33,7 +40,7 @@ const AboutMe = () => {
           <h2>Awards</h2>
           <ListGroup variant="flush">
             <ListGroup.Item>
-              Central Florida Community College's David Langiston Excellence
+              Central Florida Community College's David Langston Excellence
               Award for Exceptional Performance in the Classroom and in the
               Community.
             </ListGroup.Item>

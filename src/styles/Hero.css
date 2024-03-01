@@ -1,0 +1,47 @@
+.hero-container {
+  width: 100%;
+}
+
+.hero-image {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Set desired height */
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.hero-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-link {
+  margin-bottom: 20px; /* Adjust spacing between links */
+  font-size: 20px; /* Adjust link font size */
+  color: #fff; /* Set link color */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.hero-link span {
+  margin-left: 10px; /* Adjust spacing between icon and text */
+}

@@ -1,0 +1,13 @@
+.card {
+  height: 100%;
+}
+
+.card-body {
+  height: calc(100% - 143px); /* Adjust as needed based on your card content */
+  overflow: hidden;
+}
+
+.card-img-top {
+  height: 200px; /* Adjust as needed based on your image aspect ratio */
+  object-fit: cover;
+}
