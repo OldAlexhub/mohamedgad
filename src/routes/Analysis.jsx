@@ -148,7 +148,7 @@ const Analysis = () => {
   //   "Strategic Business Relationships and Partnerships",
   // ];
 
-  const totalAccumulativeYears = 14.1; // Calculated total years of experience
+  const totalAccumulativeYears = 15; // Calculated total years of experience
   // const chartOptions = {
   //   responsive: true,
   //   maintainAspectRatio: true, // You can adjust aspect ratio according to your needs
@@ -171,7 +171,7 @@ const Analysis = () => {
               <Card.Text style={{ textAlign: "center" }}>
                 <h4>
                   {" "}
-                  <strong>{totalAccumulativeYears.toFixed(1)} years</strong>
+                  <strong>~{totalAccumulativeYears.toFixed(1)} years</strong>
                 </h4>
               </Card.Text>
             </Card.Body>
