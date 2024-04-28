@@ -8,7 +8,6 @@ import {
   ProjectOutlined,
   FundProjectionScreenOutlined,
   StockOutlined,
-  FileSearchOutlined,
 } from "@ant-design/icons";
 
 const { Header } = Layout;
@@ -37,7 +36,7 @@ const LayoutComponent = () => {
           <Menu.Item key="6" icon={<ProjectOutlined />}>
             <Link to="/projects">Projects</Link>
           </Menu.Item>
-          <Menu.Item key="7" icon={<FileSearchOutlined />}>
+          <Menu.Item key="7" icon={<ProjectOutlined />}>
             <Link to="/articles">Articles</Link>
           </Menu.Item>
         </Menu>

@@ -8,6 +8,8 @@ import Analysis from "../routes/Analysis";
 import Protfolio from "../routes/Protfolio";
 import Projects from "../routes/Projects";
 import ProjectDetails from "../routes/ProjectDetails";
+import Articles from "../routes/Articles";
+import CarSales from "../Articles/CarSales";
 
 const RouteManager = () => {
   return (
@@ -20,6 +22,8 @@ const RouteManager = () => {
           <Route path="analysis" element={<Analysis />} />
           <Route path="portfolio" element={<Protfolio />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="articles" element={<Articles />} />
+          <Route path="carsales" element={<CarSales />} />
           <Route path="/projects/:projectId" element={<ProjectDetails />} />
         </Route>
       </Routes>

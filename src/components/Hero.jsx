@@ -1,26 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
 import HERO from "../images/hero1.webp";
 
 const Hero = () => {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    const fetchProjects = async () => {
-      try {
-        const response = await axios.get(process.env.REACT_APP_SHOW_POSTS);
-
-        if (response.status === 200) {
-          setProjects(response.data.show);
-        }
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    fetchProjects();
-  }, []);
-
   return (
     <header style={{ paddingLeft: 0 }}>
       <div
@@ -44,14 +26,6 @@ const Hero = () => {
                   className="text-white text-decoration-none"
                 >
                   Professional Analysis
-                </Link>
-              </h1>
-              <h1 className="mb-3">
-                <Link
-                  to="/projects"
-                  className="text-white text-decoration-none"
-                >
-                  Checkout {projects.length} Projects
                 </Link>
               </h1>
             </div>
