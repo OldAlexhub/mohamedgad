@@ -184,7 +184,7 @@ rpart.plot(tmodel,main = "Decision Tree for Happiness Prediction", extra = 101)
         In our extensive data-driven exploration of societal well-being, three
         graphs have been paramount in illustrating the outcomes of our analysis.
         <br />
-        In our pursuit to quantify joy, the second graph presents the happiest
+        In our pursuit to quantify joy, the first graph presents the happiest
         societies. Nations such as Finland and Denmark top the chart, offering a
         glimpse into the environments where contentment thrives. The high
         happiness scores underscore the successful harmonization of economic,
