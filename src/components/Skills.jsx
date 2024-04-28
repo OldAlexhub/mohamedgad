@@ -59,6 +59,12 @@ const skills = [
       " Full Stack Development: Proficient in ReactJs, React-Native for frontend, Node.js (Express) for backend, and MongoDB for database integration.",
     icon: faCode,
   },
+  {
+    id: 10,
+    skill:
+      " Leading Data Governance Management by formulating and enforcing policies to optimize data use, aligned with business goals and enhanced by skills in R and Python.",
+    icon: faDatabase,
+  },
 ];
 
 export default skills;
