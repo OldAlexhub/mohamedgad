@@ -1,49 +1,46 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
-import { Layout, Menu } from "antd";
-import {
-  HomeOutlined,
-  UserOutlined,
-  SmileOutlined,
-  ProjectOutlined,
-  FundProjectionScreenOutlined,
-  StockOutlined,
-} from "@ant-design/icons";
-
-const { Header } = Layout;
+import { Outlet, NavLink } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Navbar, Nav } from "react-bootstrap";
 
 const LayoutComponent = () => {
   return (
-    <Layout className="layout">
-      <Header>
-        <div className="logo" />
-        <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["1"]}>
-          <Menu.Item key="1" icon={<HomeOutlined />}>
-            <Link to="/">Home</Link>
-          </Menu.Item>
-          <Menu.Item key="2" icon={<UserOutlined />}>
-            <Link to="/aboutme">About</Link>
-          </Menu.Item>
-          <Menu.Item key="3" icon={<FundProjectionScreenOutlined />}>
-            <Link to="/analysis">Professional Analysis</Link>
-          </Menu.Item>
-          <Menu.Item key="4" icon={<StockOutlined />}>
-            <Link to="/portfolio">Investment Portfolio</Link>
-          </Menu.Item>
-          <Menu.Item key="5" icon={<SmileOutlined />}>
-            <Link to="/hobbies">Hobbies</Link>
-          </Menu.Item>
-          <Menu.Item key="6" icon={<ProjectOutlined />}>
-            <Link to="/projects">Projects</Link>
-          </Menu.Item>
-          <Menu.Item key="7" icon={<ProjectOutlined />}>
-            <Link to="/articles">Data Analysis & Machine Learning</Link>
-          </Menu.Item>
-        </Menu>
-      </Header>
+    <div>
+      <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+        <Container>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link as={NavLink} to="/" exact>
+                Home
+              </Nav.Link>
+              <Nav.Link as={NavLink} to="/aboutme">
+                About
+              </Nav.Link>
+              <Nav.Link as={NavLink} to="/analysis">
+                Professional Career Analysis
+              </Nav.Link>
+              <Nav.Link as={NavLink} to="/portfolio">
+                Portfolio
+              </Nav.Link>
+              <Nav.Link as={NavLink} to="/hobbies">
+                Hobbies
+              </Nav.Link>
+              <Nav.Link as={NavLink} to="/projects">
+                Projects Overview
+              </Nav.Link>
+              <Nav.Link as={NavLink} to="/articles">
+                Data Analysis & ML
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
 
-      <Outlet />
-    </Layout>
+      <Container style={{ marginTop: "20px" }}>
+        <Outlet />
+      </Container>
+    </div>
   );
 };
 

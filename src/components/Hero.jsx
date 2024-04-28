@@ -9,7 +9,10 @@ const Hero = () => {
         className="p-5 text-center bg-image"
         style={{
           backgroundImage: `url('${HERO}')`,
-          height: 800,
+          height: "100vh", // Change the height to 100vh to cover the full screen height
+          backgroundPosition: "center", // Centers the background image
+          backgroundRepeat: "no-repeat", // Prevents repeating the background image
+          backgroundSize: "fill", // Ensures the image covers the entire container
         }}
       >
         <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
