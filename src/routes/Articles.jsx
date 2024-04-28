@@ -47,14 +47,18 @@ const Articles = () => {
               <Card.Img variant="top" src={SOC} alt="Home sales insights" />
               <Card.Body>
                 <Card.Title className="text-dark">
-                  Detailed Report on Home Sales Trends
+                  Harnessing Data Science for Political Stability Analysis
                 </Card.Title>
                 <Card.Text>
-                  Explore the latest trends in the real estate market with our
-                  comprehensive analysis of home sales. This report covers
-                  factors like market prices, geographical demand, and economic
-                  indicators that impact buying and selling decisions in the
-                  housing market.
+                  Discover the heart of happiness and generosity across the
+                  globe with our cutting-edge analysis. Dive into a visual
+                  journey through the world's most contented societies, uncover
+                  the most magnanimous cultures, and decode the blueprint to a
+                  happier society with our illuminating data-driven study. These
+                  insights are more than mere statistics; they're a narrative of
+                  human joy and kindness, rendered in vivid detail. Join us as
+                  we reveal the secrets behind the world’s smiles and share the
+                  wisdom for crafting a more harmonious future.
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
