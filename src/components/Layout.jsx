@@ -37,7 +37,7 @@ const LayoutComponent = () => {
             <Link to="/projects">Projects</Link>
           </Menu.Item>
           <Menu.Item key="7" icon={<ProjectOutlined />}>
-            <Link to="/articles">Articles</Link>
+            <Link to="/articles">Data Analysis & Machine Learning</Link>
           </Menu.Item>
         </Menu>
       </Header>
