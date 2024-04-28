@@ -51,7 +51,11 @@ const SocioPolitcs = () => {
       {/* Placeholder for Graph 1 */}
       <div className="graph-placeholder mb-4">
         <p className="text-center">
-          <img src={One} alt="happiness" />
+          <img
+            src={One}
+            alt="happiness"
+            style={{ width: "100%", height: "auto" }}
+          />
         </p>
       </div>
 
@@ -69,10 +73,12 @@ const SocioPolitcs = () => {
       `}</pre>
 
       {/* Placeholder for Graph 2 */}
-      <div className="graph-placeholder mb-4">
-        <p className="text-center">
-          <img src={Two} alt="Generosity" />
-        </p>
+      <div className="graph-placeholder mb-4 text-center">
+        <img
+          src={Two}
+          alt="Generosity"
+          style={{ width: "100%", height: "auto" }}
+        />
       </div>
 
       <h2>Data Normalization and Predictive Modeling</h2>
@@ -113,7 +119,7 @@ rpart.plot(tmodel,main = "Decision Tree for Happiness Prediction", extra = 101)
       {/* Placeholder for Graph 3 */}
       <div className="graph-placeholder mb-4">
         <p className="text-center">
-          <img src={Three} alt="DT" />
+          <img src={Three} alt="DT" style={{ width: "100%", height: "auto" }} />
         </p>
       </div>
 
