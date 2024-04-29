@@ -10,6 +10,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const Articles = () => {
   return (
     <Container className="mt-4">
+      <h1 style={{ textAlign: "center" }}>Articles</h1>
       <Row className="g-4">
         <Col md={6} lg={4}>
           <Link to={`/carsales`} className="text-decoration-none">
