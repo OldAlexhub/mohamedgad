@@ -31,6 +31,22 @@ const Hero = () => {
                   Professional Analysis
                 </Link>
               </h1>
+              <h1 className="mb-3">
+                <Link
+                  to="/projects"
+                  className="text-white text-decoration-none"
+                >
+                  Webapp Projects
+                </Link>
+              </h1>
+              <h1 className="mb-3">
+                <Link
+                  to="/articles"
+                  className="text-white text-decoration-none"
+                >
+                  Data Analysis & Machine Learning
+                </Link>
+              </h1>
             </div>
           </div>
         </div>
