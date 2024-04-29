@@ -181,8 +181,8 @@ rpart.plot(tmodel,main = "Decision Tree for Happiness Prediction", extra = 101)
       `}</pre>
       <p>
         The output from our model, "This Society is moderate, with a stabilty
-        score of: 13.94316", indicates a high level of governmental trust and
-        societal stability, showcasing the utility of our predictive approach.
+        score of: 13.94316", indicates a moderate trust and societal stability,
+        showcasing the utility of our predictive approach.
       </p>
       <h2>Conclusion</h2>
       <p>
