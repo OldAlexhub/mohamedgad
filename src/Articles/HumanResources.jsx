@@ -35,8 +35,8 @@ const HumanResources = () => {
           />
         </div>
         <p>
-          Observation: Graph shows the distribution of employees across
-          different age groups.
+          <strong>Observation: </strong> Graph shows the distribution of
+          employees across different age groups.
         </p>
 
         <h3>Gender Distribution</h3>
@@ -48,8 +48,8 @@ const HumanResources = () => {
           />
         </div>
         <p>
-          Observation: Pie chart illustrating the percentage of genders across
-          the company.
+          <strong>Observation: </strong>Pie chart illustrating the percentage of
+          genders across the company.
         </p>
 
         <h3>Department Distribution</h3>
@@ -61,8 +61,8 @@ const HumanResources = () => {
           />
         </div>
         <p>
-          Observation: Bar chart showing the number of employees in each
-          department.
+          <strong>Observation:</strong> Bar chart showing the number of
+          employees in each department.
         </p>
 
         <h3>Manager to Employee Ratio</h3>
@@ -163,8 +163,8 @@ cat('The predicted retention is low:', round(prediction * 100, 2), '%')
 
 retention_prediction(mydata, input_data)`}</pre>
         <p>
-          Observation: The random forest model predicts employee retention with
-          a high degree of accuracy.
+          <strong>Observation:</strong> The random forest model predicts
+          employee retention with a high degree of accuracy.
         </p>
       </section>
 
