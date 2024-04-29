@@ -150,14 +150,13 @@ rpart.plot(tmodel,main = "Decision Tree for Happiness Prediction", extra = 101)
       </p>
       <pre>{`
             input_data2 <- data.frame(
-            Happiness= 7,
-            GDP= 3.1,
-            Health= 91,
-            Freedom= 90,
-            Gov_Trust= 91,
-            Social_Support= 95,
-            CPI_Score= 90
-        )
+              Happiness= 3,
+              GDP= 0.1,
+              Health= 25,
+              Freedom= 30,
+              Social_Support= 5,
+              CPI_Score= 90
+            )
         
         rmodel2 <- randomForest(Gov_Trust ~ GDP+ Health+Freedom+Happiness+Social_Support+CPI_Score,
                                 data = mydata,
@@ -168,7 +167,7 @@ rpart.plot(tmodel,main = "Decision Tree for Happiness Prediction", extra = 101)
         
         #stability function
         unrest_prediction <- function(rmodel2, input_data2){
-            if (rprediction2 > 20){
+            if (rprediction2 > 25){
             cat('This Society is Stable, with a stabilty score of: ',rprediction2 )
             } else if (rprediction2 > 10){
             cat('This Society is moderate, with a stabilty score of: ',rprediction2 )
@@ -181,8 +180,8 @@ rpart.plot(tmodel,main = "Decision Tree for Happiness Prediction", extra = 101)
         unrest_prediction(rprediction2, input_data2)
       `}</pre>
       <p>
-        The output from our model, "This Society is Stable, with a stability
-        score of: 29.46516", indicates a high level of governmental trust and
+        The output from our model, "This Society is moderate, with a stabilty
+        score of: 13.94316", indicates a high level of governmental trust and
         societal stability, showcasing the utility of our predictive approach.
       </p>
       <h2>Conclusion</h2>
