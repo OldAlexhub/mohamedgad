@@ -1,6 +1,7 @@
 import React from "react";
 import Sales from "../images/sales.jpg";
 import SOC from "../images/soc.jpg";
+import Reten from "../images/reten.png";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -64,6 +65,33 @@ const Articles = () => {
               <Card.Footer>
                 <small className="text-muted">
                   <p>04/28/2024, 9:45 A.M.</p>
+                </small>
+              </Card.Footer>
+            </Card>
+          </Link>
+        </Col>
+        <br />
+        <Col md={6} lg={4}>
+          <Link to={`/humanresource`} className="text-decoration-none">
+            <Card>
+              <Card.Img variant="top" src={Reten} alt="Home sales insights" />
+              <Card.Body>
+                <Card.Title className="text-dark">
+                  Human Resources Dataset Analysis{" "}
+                </Card.Title>
+                <Card.Text>
+                  The article is structured to first give a thorough overview of
+                  the company's operational and cultural framework by analyzing
+                  its manpower. Subsequent sections employ various analytical
+                  methodologies such as linear regression, logistic regression,
+                  decision trees, and random forest models to investigate and
+                  predict retention rates. Each model's effectiveness is
+                  evaluated, and observations are meticulously noted.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">
+                  <p>04/29/2024, 7:45 A.M.</p>
                 </small>
               </Card.Footer>
             </Card>
