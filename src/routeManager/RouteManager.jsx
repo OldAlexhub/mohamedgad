@@ -12,6 +12,7 @@ import Articles from "../routes/Articles";
 import CarSales from "../Articles/CarSales";
 import SocioPolitcs from "../Articles/SocioPolitcs";
 import HumanResources from "../Articles/HumanResources";
+import Interactive from "../Articles/Interactive";
 
 const RouteManager = () => {
   return (
@@ -28,6 +29,7 @@ const RouteManager = () => {
           <Route path="carsales" element={<CarSales />} />
           <Route path="politicsone" element={<SocioPolitcs />} />
           <Route path="humanresource" element={<HumanResources />} />
+          <Route path="interactive" element={<Interactive />} />
           <Route path="/projects/:projectId" element={<ProjectDetails />} />
         </Route>
       </Routes>

@@ -2,6 +2,7 @@ import React from "react";
 import Sales from "../images/sales.jpg";
 import SOC from "../images/soc.jpg";
 import Reten from "../images/reten.png";
+import Dash from "../images/dash.png";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -93,6 +94,33 @@ const Articles = () => {
               <Card.Footer>
                 <small className="text-muted">
                   <p>04/29/2024, 7:45 A.M.</p>
+                </small>
+              </Card.Footer>
+            </Card>
+          </Link>
+        </Col>
+        <br />
+        <Col md={6} lg={4}>
+          <Link to={`/interactive`} className="text-decoration-none">
+            <Card>
+              <Card.Img variant="top" src={Dash} alt="Home sales insights" />
+              <Card.Body>
+                <Card.Title className="text-dark">
+                  SuperStore Sales Dashboard{" "}
+                </Card.Title>
+                <Card.Text>
+                  This dashboard is not only a tool for viewing sales data but
+                  also a platform to demonstrate the ability to transform raw
+                  data into meaningful insights through interactive
+                  visualizations. Whether you're a stakeholder looking to
+                  understand sales trends or a fellow data enthusiast curious
+                  about data visualization techniques, this dashboard serves a
+                  wide range of purposes.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">
+                  <p>05/02/2024, 7:45 P.M.</p>
                 </small>
               </Card.Footer>
             </Card>
