@@ -3,6 +3,7 @@ import Sales from "../images/sales.jpg";
 import SOC from "../images/soc.jpg";
 import Reten from "../images/reten.png";
 import Dash from "../images/dash.png";
+import HR from "../images/hr.png";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -121,6 +122,39 @@ const Articles = () => {
               <Card.Footer>
                 <small className="text-muted">
                   <p>05/02/2024, 7:45 P.M.</p>
+                </small>
+              </Card.Footer>
+            </Card>
+          </Link>
+        </Col>
+        <br />
+        <Col md={6} lg={4}>
+          <Link to={`/hrinteractive`} className="text-decoration-none">
+            <Card>
+              <Card.Img variant="top" src={HR} alt="Home sales insights" />
+              <Card.Body>
+                <Card.Title className="text-dark">
+                  HR Dashboard Visualization{" "}
+                </Card.Title>
+                <Card.Text>
+                  This dashboard goes beyond simple data presentation, evolving
+                  into a sophisticated analytical platform that integrates
+                  interactive visualizations and a decision tree machine
+                  learning model to transform raw data into actionable insights.
+                  It is designed to cater to a wide audience, from
+                  decision-makers seeking to derive strategic insights through
+                  predictive analytics, to data enthusiasts exploring advanced
+                  data visualization and machine learning techniques. This tool
+                  not only facilitates a deeper understanding of complex
+                  datasets but also supports informed decision-making by
+                  illustrating key trends and patterns within the data. Through
+                  this comprehensive dashboard, users are equipped to engage
+                  with the data more effectively and make well-informed choices.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">
+                  <p>05/03/2024, 9:40 P.M.</p>
                 </small>
               </Card.Footer>
             </Card>
