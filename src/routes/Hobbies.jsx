@@ -84,7 +84,7 @@ const Hobbies = () => {
               />
 
               <img
-                src="https://pbs.twimg.com/profile_images/1653020430083473408/HU4t7EcO_400x400.jpg"
+                src="https://miro.medium.com/v2/resize:fit:600/1*6dlDil8oYQiU_kkwp7aruw.png"
                 alt="Aerosmith"
                 className="img-fluid rounded-circle me-2"
                 style={{ width: "50px", height: "50px" }}
