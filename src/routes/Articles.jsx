@@ -1,165 +1,98 @@
 import React from "react";
+import { Helmet } from "react-helmet";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Sales from "../images/sales.jpg";
 import SOC from "../images/soc.jpg";
 import Reten from "../images/reten.png";
 import Dash from "../images/dash.png";
 import HR from "../images/hr.png";
-import Card from "react-bootstrap/Card";
-import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col } from "react-bootstrap";
 
 const Articles = () => {
+  const articles = [
+    {
+      id: "carsales",
+      title: "Comprehensive Analysis of Car Sales Data",
+      description:
+        "This analysis aims to determine the optimal car price based on variables such as annual salary, credit card debt, and net worth. It explores whether net worth is a valuable indicator for assessing a suitable vehicle for an individual.",
+      imageUrl: Sales,
+      path: "/carsales",
+      date: "04/27/2024, 10:12 P.M.",
+    },
+    {
+      id: "politicsone",
+      title: "Harnessing Data Science for Political Stability Analysis",
+      description:
+        "Discover the heart of happiness and generosity across the globe with our cutting-edge analysis. Dive into a visual journey through the world's most contented societies, uncover the most magnanimous cultures, and decode the blueprint to a happier society.",
+      imageUrl: SOC,
+      path: "/politicsone",
+      date: "04/28/2024, 9:45 A.M.",
+    },
+    {
+      id: "humanresource",
+      title: "Human Resources Dataset Analysis",
+      description:
+        "The article is structured to first give a thorough overview of the company's operational and cultural framework by analyzing its manpower. Subsequent sections employ various analytical methodologies to investigate and predict retention rates.",
+      imageUrl: Reten,
+      path: "/humanresource",
+      date: "04/29/2024, 7:45 A.M.",
+    },
+    {
+      id: "interactive",
+      title: "SuperStore Sales Dashboard",
+      description:
+        "This dashboard is a tool for viewing sales data and demonstrating the ability to transform raw data into meaningful insights through interactive visualizations.",
+      imageUrl: Dash,
+      path: "/interactive",
+      date: "05/02/2024, 7:45 P.M.",
+    },
+    {
+      id: "hrinteractive",
+      title: "HR Dashboard Visualization",
+      description:
+        "This dashboard integrates interactive visualizations and a decision tree machine learning model to transform raw data into actionable insights, designed to cater to a wide audience.",
+      imageUrl: HR,
+      path: "/hrinteractive",
+      date: "05/03/2024, 9:40 P.M.",
+    },
+  ];
+
   return (
     <Container className="mt-4">
+      <Helmet>
+        <title>Articles</title>
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={window.location.href} />
+        <meta property="og:image" content={articles[0].imageUrl} />
+        <meta property="og:title" content={articles[0].title} />
+        <meta property="og:description" content={articles[0].description} />
+      </Helmet>
       <h1 style={{ textAlign: "center" }}>Articles</h1>
       <Row className="g-4">
-        <Col md={6} lg={4}>
-          <Link to={`/carsales`} className="text-decoration-none">
-            <Card>
-              <Card.Img
-                variant="top"
-                src={Sales}
-                alt="Sales prediction insights"
-              />
-              <Card.Body>
-                <Card.Title className="text-dark">
-                  Comprehensive Analysis of Car Sales Data
-                </Card.Title>
-
-                <Card.Text>
-                  This analysis aims to determine the optimal car price based on
-                  variables such as annual salary, credit card debt, and net
-                  worth. It explores whether net worth is a valuable indicator
-                  for assessing a suitable vehicle for an individual.
-                  Additionally, the study considers gender differences to see if
-                  they influence car purchasing decisions.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">
-                  <p>04/27/2024, 10:12 P.M.</p>
-                </small>
-              </Card.Footer>
-            </Card>
-          </Link>
-        </Col>
-        <br />
-        <Col md={6} lg={4}>
-          <Link to={`/politicsone`} className="text-decoration-none">
-            <Card>
-              <Card.Img variant="top" src={SOC} alt="Home sales insights" />
-              <Card.Body>
-                <Card.Title className="text-dark">
-                  Harnessing Data Science for Political Stability Analysis
-                </Card.Title>
-                <Card.Text>
-                  Discover the heart of happiness and generosity across the
-                  globe with our cutting-edge analysis. Dive into a visual
-                  journey through the world's most contented societies, uncover
-                  the most magnanimous cultures, and decode the blueprint to a
-                  happier society with our illuminating data-driven study. These
-                  insights are more than mere statistics; they're a narrative of
-                  human joy and kindness, rendered in vivid detail. Join us as
-                  we reveal the secrets behind the world’s smiles and share the
-                  wisdom for crafting a more harmonious future.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">
-                  <p>04/28/2024, 9:45 A.M.</p>
-                </small>
-              </Card.Footer>
-            </Card>
-          </Link>
-        </Col>
-        <br />
-        <Col md={6} lg={4}>
-          <Link to={`/humanresource`} className="text-decoration-none">
-            <Card>
-              <Card.Img variant="top" src={Reten} alt="Home sales insights" />
-              <Card.Body>
-                <Card.Title className="text-dark">
-                  Human Resources Dataset Analysis{" "}
-                </Card.Title>
-                <Card.Text>
-                  The article is structured to first give a thorough overview of
-                  the company's operational and cultural framework by analyzing
-                  its manpower. Subsequent sections employ various analytical
-                  methodologies such as linear regression, logistic regression,
-                  decision trees, and random forest models to investigate and
-                  predict retention rates. Each model's effectiveness is
-                  evaluated, and observations are meticulously noted.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">
-                  <p>04/29/2024, 7:45 A.M.</p>
-                </small>
-              </Card.Footer>
-            </Card>
-          </Link>
-        </Col>
-        <br />
-        <Col md={6} lg={4}>
-          <Link to={`/interactive`} className="text-decoration-none">
-            <Card>
-              <Card.Img variant="top" src={Dash} alt="Home sales insights" />
-              <Card.Body>
-                <Card.Title className="text-dark">
-                  SuperStore Sales Dashboard{" "}
-                </Card.Title>
-                <Card.Text>
-                  This dashboard is not only a tool for viewing sales data but
-                  also a platform to demonstrate the ability to transform raw
-                  data into meaningful insights through interactive
-                  visualizations. Whether you're a stakeholder looking to
-                  understand sales trends or a fellow data enthusiast curious
-                  about data visualization techniques, this dashboard serves a
-                  wide range of purposes.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">
-                  <p>05/02/2024, 7:45 P.M.</p>
-                </small>
-              </Card.Footer>
-            </Card>
-          </Link>
-        </Col>
-        <br />
-        <Col md={6} lg={4}>
-          <Link to={`/hrinteractive`} className="text-decoration-none">
-            <Card>
-              <Card.Img variant="top" src={HR} alt="Home sales insights" />
-              <Card.Body>
-                <Card.Title className="text-dark">
-                  HR Dashboard Visualization{" "}
-                </Card.Title>
-                <Card.Text>
-                  This dashboard goes beyond simple data presentation, evolving
-                  into a sophisticated analytical platform that integrates
-                  interactive visualizations and a decision tree machine
-                  learning model to transform raw data into actionable insights.
-                  It is designed to cater to a wide audience, from
-                  decision-makers seeking to derive strategic insights through
-                  predictive analytics, to data enthusiasts exploring advanced
-                  data visualization and machine learning techniques. This tool
-                  not only facilitates a deeper understanding of complex
-                  datasets but also supports informed decision-making by
-                  illustrating key trends and patterns within the data. Through
-                  this comprehensive dashboard, users are equipped to engage
-                  with the data more effectively and make well-informed choices.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">
-                  <p>05/03/2024, 9:40 P.M.</p>
-                </small>
-              </Card.Footer>
-            </Card>
-          </Link>
-        </Col>
+        {articles.map((article) => (
+          <Col key={article.id} md={6} lg={4}>
+            <Link to={article.path} className="text-decoration-none">
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src={article.imageUrl}
+                  alt={article.title + " insights"}
+                />
+                <Card.Body>
+                  <Card.Title className="text-dark">{article.title}</Card.Title>
+                  <Card.Text>{article.description}</Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                  <small className="text-muted">
+                    <p>{article.date}</p>
+                  </small>
+                </Card.Footer>
+              </Card>
+            </Link>
+          </Col>
+        ))}
       </Row>
     </Container>
   );
