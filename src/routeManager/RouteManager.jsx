@@ -14,6 +14,7 @@ import SocioPolitcs from "../Articles/SocioPolitcs";
 import HumanResources from "../Articles/HumanResources";
 import Interactive from "../Articles/Interactive";
 import Dashboard from "../Articles/Dashboard";
+import ArticlePage from "../components/ArticlePage";
 
 const RouteManager = () => {
   return (
@@ -32,6 +33,7 @@ const RouteManager = () => {
           <Route path="humanresource" element={<HumanResources />} />
           <Route path="interactive" element={<Interactive />} />
           <Route path="hrinteractive" element={<Dashboard />} />
+          <Route path="/article/:Id" element={<ArticlePage />} />
           <Route path="/projects/:projectId" element={<ProjectDetails />} />
         </Route>
       </Routes>

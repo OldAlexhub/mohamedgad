@@ -18,7 +18,7 @@ const LayoutComponent = () => {
                 About
               </Nav.Link>
               <Nav.Link as={NavLink} to="/analysis">
-                Professional Career Analysis
+                Career Analysis
               </Nav.Link>
               <Nav.Link as={NavLink} to="/portfolio">
                 Portfolio
