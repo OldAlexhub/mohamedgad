@@ -6,6 +6,7 @@ import Sales from "../images/sales.jpg";
 import SOC from "../images/soc.jpg";
 import Reten from "../images/reten.png";
 import Dash from "../images/dash.png";
+import EV from "../images/evs.png";
 import HR from "../images/hr.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -55,6 +56,15 @@ const Articles = () => {
       imageUrl: HR,
       path: "/hrinteractive",
       date: "05/03/2024, 9:40 P.M.",
+    },
+    {
+      id: "evsales",
+      title: "EV Sales in Wsahington State",
+      description:
+        "This dashboard explores electric vehicle sales in Washington State, providing interactive visualizations to analyze sales trends, compare top sellers, and generate actionable insights for policymakers, businesses, and consumers alike.",
+      imageUrl: EV,
+      path: "/evsales",
+      date: "05/06/2024, 10:33 P.M.",
     },
   ];
 
