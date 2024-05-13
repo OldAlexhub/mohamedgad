@@ -59,7 +59,7 @@ const Articles = () => {
     },
     {
       id: "evsales",
-      title: "EV Sales in Wsahington State",
+      title: "EV Sales in Washington State",
       description:
         "This dashboard explores electric vehicle sales in Washington State, providing interactive visualizations to analyze sales trends, compare top sellers, and generate actionable insights for policymakers, businesses, and consumers alike.",
       imageUrl: EV,
