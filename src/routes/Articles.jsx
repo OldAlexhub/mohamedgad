@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import dashboard from "../images/dashboard.png";
 import Sales from "../images/sales.jpg";
 import SOC from "../images/soc.jpg";
 import Reten from "../images/reten.png";
@@ -65,6 +66,16 @@ const Articles = () => {
       imageUrl: EV,
       path: "/evsales",
       date: "05/06/2024, 10:33 P.M.",
+    },
+    {
+      id: "politicstwo",
+      title:
+        "Unveiling Global Happiness: A Deep Dive into World Happiness Data (2015-2020)",
+      description:
+        "Welcome to an insightful exploration of the World Happiness dataset spanning from 2015 to 2020. This analysis delves into various dimensions of happiness, generosity, democracy, and more, just before the COVID-19 pandemic reshaped our world. Leveraging the power of data science and the R programming language, this article uncovers fascinating trends and comparisons across continents and countries. ",
+      imageUrl: dashboard,
+      path: "/politicstwo",
+      date: "05/19/2024, 09:07 P.M.",
     },
   ];
 
