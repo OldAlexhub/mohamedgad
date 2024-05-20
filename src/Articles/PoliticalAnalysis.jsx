@@ -228,7 +228,7 @@ const PoliticalAnalysis = () => {
       <p>Enjoy the interactive dashboard below!</p>
       <div>
         <iframe
-          src="/Politics.html"
+          src="/politics.html"
           style={{ width: "100%", height: "800px", border: "none" }}
           title="Dashboard"
         ></iframe>
