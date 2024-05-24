@@ -82,7 +82,7 @@ const Articles = () => {
   return (
     <Container className="mt-4">
       <Helmet>
-        <title>Articles</title>
+        <title>Data Analysis & Machine Learning</title>
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content={window.location.href} />
