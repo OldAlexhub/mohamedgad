@@ -32,9 +32,6 @@ const LayoutComponent = () => {
               <Nav.Link as={NavLink} to="/articles">
                 Data Analysis & ML
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/megaprojects">
-                Mega Projects
-              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
