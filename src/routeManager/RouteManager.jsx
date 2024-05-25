@@ -17,7 +17,7 @@ import Dashboard from "../Articles/Dashboard";
 import Evsales from "../Articles/Evsales";
 import PoliticalAnalysis from "../Articles/PoliticalAnalysis";
 import MegaProjects from "../routes/MegaProjects";
-import Taxi from "../megaProjects/Taxi";
+import Taxi from "../Articles/Taxi";
 
 const RouteManager = () => {
   return (
