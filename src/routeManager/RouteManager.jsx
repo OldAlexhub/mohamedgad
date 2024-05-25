@@ -16,6 +16,8 @@ import Interactive from "../Articles/Interactive";
 import Dashboard from "../Articles/Dashboard";
 import Evsales from "../Articles/Evsales";
 import PoliticalAnalysis from "../Articles/PoliticalAnalysis";
+import MegaProjects from "../routes/MegaProjects";
+import Taxi from "../megaProjects/Taxi";
 
 const RouteManager = () => {
   return (
@@ -37,6 +39,8 @@ const RouteManager = () => {
           <Route path="evsales" element={<Evsales />} />
           <Route path="politicstwo" element={<PoliticalAnalysis />} />
           <Route path="articles" element={<Articles />} />
+          <Route path="megaprojects" element={<MegaProjects />} />
+          <Route path="taxi" element={<Taxi />} />
           <Route path="/projects/:projectId" element={<ProjectDetails />} />
         </Route>
       </Routes>
@@ -45,3 +49,4 @@ const RouteManager = () => {
 };
 
 export default RouteManager;
+
