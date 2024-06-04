@@ -1,0 +1,53 @@
+.article-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.article-header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.article-title {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.article-meta {
+  font-size: 1em;
+  color: #555;
+}
+
+.article-meta span {
+  margin-right: 10px;
+}
+
+.article-img-container {
+  text-align: center;
+}
+
+.article-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.article-content {
+  margin-top: 20px;
+}
+
+.article-quote {
+  font-size: 1.25rem;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+.article-footer {
+  margin-top: 20px;
+}
+
+.article-footer .btn {
+  margin-right: 10px;
+}
