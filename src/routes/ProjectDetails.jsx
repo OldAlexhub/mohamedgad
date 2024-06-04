@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import "../styles/Articles.css";
 
 const ProjectDetails = () => {
   const { projectId } = useParams();
-
   const [project, setProject] = useState(null);
 
   useEffect(() => {
@@ -23,68 +23,73 @@ const ProjectDetails = () => {
     };
     fetchProject();
   }, [projectId]);
+
   return (
-    <div className="container mt-3">
-      <ul className="list-unstyled">
-        {project ? ( // Make sure project is not null before rendering its details
-          <li key={project._id}>
-            <h1>{project.title}</h1>
-            <p>
-              <strong>by: </strong>
-              {project.by}
+    <div className="article-container mt-3">
+      {project ? (
+        <article key={project._id}>
+          <header className="article-header">
+            <h1 className="article-title">{project.title}</h1>
+            <p className="article-meta">
+              <span>
+                <strong>by:</strong> {project.by}
+              </span>{" "}
+              |
+              <span>
+                <strong> Posted:</strong>{" "}
+                {new Date(project.data).toLocaleDateString()}
+              </span>
             </p>
-            <p>
-              <strong>Posted: </strong>
-              {new Date(project.data).toLocaleDateString()}{" "}
-            </p>
-            <div className="img-container mb-3" style={{ maxWidth: "100%" }}>
-              <img
-                src={project.img}
-                alt={project.title}
-                className="img-fluid"
-                style={{ borderRadius: "10px" }}
-              />
-            </div>
+          </header>
+          <div className="article-img-container mb-3">
+            <img
+              src={project.img}
+              alt={project.title}
+              className="img-fluid article-img"
+            />
+          </div>
+          <section className="article-content">
             {project.overView &&
               project.overView
                 .split("*")
                 .filter(Boolean)
                 .map((quote, index) => (
-                  <p key={index} style={{ fontSize: "1.25rem" }}>
-                    <q style={{ fontStyle: "italic" }}>{quote.trim()}</q>
+                  <p key={index} className="article-quote">
+                    <q>{quote.trim().replace(/^["']+|["']+$/g, "")}</q>
                   </p>
                 ))}
-            <div>
-              {project.linkOne && (
-                <a
-                  href={project.linkOne}
-                  className="btn btn-primary me-2"
-                  role="button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Go to Website
-                </a>
-              )}
+          </section>
+          <footer className="article-footer">
+            {project.linkOne && (
+              <a
+                href={project.linkOne}
+                className="btn btn-primary me-2"
+                role="button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Go to Website
+              </a>
+            )}
 
-              {project.linkTwo && (
-                <a
-                  href={project.linkTwo}
-                  className="btn btn-success"
-                  role="button"
-                  download
-                >
-                  Download the App
-                </a>
-              )}
-            </div>
-          </li>
-        ) : (
-          <p>Loading project details...</p> // Provide a loading state or message
-        )}
-      </ul>
+            {project.linkTwo && (
+              <a
+                href={project.linkTwo}
+                className="btn btn-success"
+                role="button"
+                download
+              >
+                Download the App
+              </a>
+            )}
+          </footer>
+        </article>
+      ) : (
+        <p>Loading project details...</p>
+      )}
     </div>
   );
 };
 
 export default ProjectDetails;
+
