@@ -22,12 +22,14 @@ const Projects = () => {
     fetchProjects();
   }, []);
 
-  function truncateText(text, maxWords) {
-    const words = text.split(" ");
+ function truncateText(text, maxWords) {
+    // Remove leading and trailing quotation marks and asterisks
+    const cleanedText = text.replace(/^["'*]+|["'*]+$/g, "").replace(/\*/g, "");
+    const words = cleanedText.split(" ");
     if (words.length > maxWords) {
       return words.slice(0, maxWords).join(" ") + "...";
     } else {
-      return text;
+      return cleanedText;
     }
   }
 
