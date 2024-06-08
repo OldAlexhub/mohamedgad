@@ -16,6 +16,8 @@ import Interactive from "../Articles/Interactive";
 import Dashboard from "../Articles/Dashboard";
 import Evsales from "../Articles/Evsales";
 import PoliticalAnalysis from "../Articles/PoliticalAnalysis";
+import CrimesInDenver from "../Articles/CrimesInDenver";
+
 
 const RouteManager = () => {
   return (
