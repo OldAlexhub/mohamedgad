@@ -38,6 +38,8 @@ const RouteManager = () => {
           <Route path="politicstwo" element={<PoliticalAnalysis />} />
           <Route path="articles" element={<Articles />} />
           <Route path="/projects/:projectId" element={<ProjectDetails />} />
+          <Route path="/crimesindenver" element={<CrimesInDenver />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
