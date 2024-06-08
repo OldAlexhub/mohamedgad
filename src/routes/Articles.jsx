@@ -9,6 +9,7 @@ import Reten from "../images/reten.png";
 import Dash from "../images/dash.png";
 import EV from "../images/evs.png";
 import HR from "../images/hr.png";
+import Denver from "../images/denver.webp";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Articles = () => {
@@ -76,6 +77,15 @@ const Articles = () => {
       imageUrl: dashboard,
       path: "/politicstwo",
       date: "05/19/2024, 09:07 P.M.",
+    },
+    {
+      id: "crimesindenver",
+      title: "Exploratory Data Analysis of Crimes in Denver (2018 - 2024)",
+      description:
+        "Welcome to an insightful exploration of the World Happiness dataset spanning from 2015 to 2020. This analysis delves into various dimensions of happiness, generosity, democracy, and more, just before the COVID-19 pandemic reshaped our world. Leveraging the power of data science and the R programming language, this article uncovers fascinating trends and comparisons across continents and countries. ",
+      imageUrl: Denver,
+      path: "/crimesindenver",
+      date: "06/08/2024, 02:49 P.M.",
     },
   ];
 
