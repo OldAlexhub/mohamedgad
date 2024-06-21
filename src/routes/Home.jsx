@@ -17,7 +17,6 @@ const Home = () => {
     const fetchNews = async () => {
       try {
         const response = await axios.get(process.env.REACT_APP_GET_NEWS);
-        console.log("News API response:", response.data);
 
         if (Array.isArray(response.data)) {
           setNewsData(response.data.slice(0, 8)); // Only take the top 6 articles
