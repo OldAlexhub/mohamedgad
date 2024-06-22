@@ -99,6 +99,14 @@ const AboutMe = () => {
               </li>
             </ul>
           </ul>
+          <ul>
+            <li>Eastern University</li>
+            <ul>
+              <li>
+                <strong>Master of Science: </strong>Data Science- In-progress
+              </li>
+            </ul>
+          </ul>
         </Col>
       </Row>
     </Container>
