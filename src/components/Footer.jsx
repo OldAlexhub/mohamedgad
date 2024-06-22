@@ -56,7 +56,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Mohamed's Website. All Rights
           Reserved.
         </p>
-        <p>Designed ❤️ by Mohamed Gad</p>
+        <p>Designed by Mohamed Gad</p>
         <p>
           Contact me at:{" "}
           <a href="mailto:mohamed@mohamedgad.com" className="text-light">
