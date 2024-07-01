@@ -17,7 +17,7 @@ import Dashboard from "../Articles/Dashboard";
 import Evsales from "../Articles/Evsales";
 import PoliticalAnalysis from "../Articles/PoliticalAnalysis";
 import CrimesInDenver from "../Articles/CrimesInDenver";
-
+import Taxi from "../Articles/Taxi";
 
 const RouteManager = () => {
   return (
@@ -41,7 +41,7 @@ const RouteManager = () => {
           <Route path="articles" element={<Articles />} />
           <Route path="/projects/:projectId" element={<ProjectDetails />} />
           <Route path="/crimesindenver" element={<CrimesInDenver />} />
-
+          <Route path="/taxi" element={<Taxi />} />
         </Route>
       </Routes>
     </BrowserRouter>
