@@ -9,6 +9,7 @@ import Reten from "../images/reten.png";
 import Dash from "../images/dash.png";
 import EV from "../images/evs.png";
 import HR from "../images/hr.png";
+import Taxi from "../images/taxi.jpg";
 import Denver from "../images/denver.webp";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -86,6 +87,16 @@ const Articles = () => {
       imageUrl: Denver,
       path: "/crimesindenver",
       date: "06/08/2024, 02:49 P.M.",
+    },
+    {
+      id: "taxi",
+      title:
+        "Comprehensive Data Analysis and Predictive Modeling for Taxi Operations",
+      description:
+        "In a recent project, I was tasked with analyzing a taxi company's dataset to identify anomalies in its operations and predict future trends based on its current trajectory. The initial step involves exploratory data analysis, followed by data preprocessing and cleaning. Additionally, I will create new variables derived from the existing dataframe.",
+      imageUrl: Taxi,
+      path: "/taxi",
+      date: "06/30/2024, 11:12 P.M.",
     },
   ];
 
