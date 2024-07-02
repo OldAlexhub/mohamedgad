@@ -168,6 +168,23 @@ const Hobbies = () => {
                 constantly learning and evolving with each unfolding event.
               </p>
             </div>
+                        {/* Data Science Section */}
+            <div className="hobby mb-3">
+              <h3 className="mb-3">Data Science</h3>
+              <p className="text-justify">
+                My passion for Data Science is driven by the power of data to
+                transform businesses and uncover insights. I utilize tools like{" "}
+                <strong>R</strong> and <strong>Python</strong> for advanced data
+                analysis and machine learning. <strong>Excel</strong> is my
+                go-to for quick data manipulation and visualization.{" "}
+                <strong>Tableau</strong> and <strong>Power BI</strong> are
+                invaluable for creating dynamic, interactive dashboards that
+                communicate complex data clearly and effectively. The
+                combination of these tools allows me to tackle diverse data
+                challenges and continuously explore the vast possibilities
+                within the field of Data Science.
+              </p>
+            </div>
           </div>
         </div>
       </div>
