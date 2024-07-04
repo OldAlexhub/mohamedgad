@@ -10,6 +10,7 @@ import Dash from "../images/dash.png";
 import EV from "../images/evs.png";
 import HR from "../images/hr.png";
 import Taxi from "../images/taxi.jpg";
+import HR2 from "../images/HR.jpg";
 import Denver from "../images/denver.webp";
 import "bootstrap/dist/css/bootstrap.min.css";
 
