@@ -98,6 +98,15 @@ const Articles = () => {
       path: "/taxi",
       date: "06/30/2024, 11:12 P.M.",
     },
+     {
+      id: "humanresourcesattrition",
+      title: "HR Analytics Case Study",
+      description:
+        "This project analyzes employee attrition at XYZ company, identifying key factors like income, tenure, and managerial relationships. Using machine learning models, high attrition rates were found in specific age groups and departments. Recommendations include leadership training, salary adjustments, and regular promotions to improve job satisfaction and retention.",
+      imageUrl: HR2,
+      path: "/HRCaseStudy",
+      date: "07/04/2024, 5:13 P.M.",
+    },
   ];
 
   return (
