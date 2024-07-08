@@ -5,7 +5,7 @@ const MachineLearning = () => {
     <div>
       <iframe
         src="https://mohamedgad.shinyapps.io/Sales/"
-        style={{ width: "1500px", height: "800px", border: "none" }}
+        style={{ width: "100%", height: "800px", border: "none" }}
         title="Dashboard"
       ></iframe>
     </div>
