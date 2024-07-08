@@ -19,6 +19,7 @@ import PoliticalAnalysis from "../Articles/PoliticalAnalysis";
 import CrimesInDenver from "../Articles/CrimesInDenver";
 import Taxi from "../Articles/Taxi";
 import HRCaseStudy from "../Articles/HRCaseStudy";
+import MachineLearning from "../Articles/MachineLearning";
 
 const RouteManager = () => {
   return (
@@ -44,6 +45,7 @@ const RouteManager = () => {
           <Route path="/crimesindenver" element={<CrimesInDenver />} />
           <Route path="/taxi" element={<Taxi />} />
           <Route path="/HRCaseStudy" element={<HRCaseStudy />} />
+          <Route path="/machinelearning1" element={<MachineLearning />} />
         </Route>
       </Routes>
     </BrowserRouter>
