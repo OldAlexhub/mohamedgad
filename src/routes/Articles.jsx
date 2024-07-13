@@ -118,6 +118,17 @@ const Articles = () => {
       path: "/machinelearning1",
       date: "07/04/2024, 5:13 P.M.",
     },
+     {
+      id: "invistcoairlines",
+      title:
+        "Enhancing Customer Satisfaction and Loyalty at Invistico Airlines: A Data-Driven Approach",
+      description:
+        "This case study analyzes Invistico Airlines' customer data to identify key factors affecting satisfaction and loyalty. By implementing targeted improvements based on data-driven insights, the airline can enhance the passenger experience, boost customer retention, and drive profitability.",
+      imageUrl:
+        "https://i0.wp.com/seleritysas.com/wp-content/uploads/2018/11/bigstock-202377457.jpg?fit=900%2C600&ssl=1",
+      path: "/invistcoairlines",
+      date: "07/12/2024, 8:38 P.M.",
+    },
   ];
 
   return (
