@@ -20,6 +20,7 @@ import CrimesInDenver from "../Articles/CrimesInDenver";
 import Taxi from "../Articles/Taxi";
 import HRCaseStudy from "../Articles/HRCaseStudy";
 import MachineLearning from "../Articles/MachineLearning";
+import Airlines from "../Articles/Airlines";
 
 const RouteManager = () => {
   return (
@@ -46,6 +47,7 @@ const RouteManager = () => {
           <Route path="/taxi" element={<Taxi />} />
           <Route path="/HRCaseStudy" element={<HRCaseStudy />} />
           <Route path="/machinelearning1" element={<MachineLearning />} />
+          <Route path="/invistcoairlines" element={<Airlines />} />
         </Route>
       </Routes>
     </BrowserRouter>
