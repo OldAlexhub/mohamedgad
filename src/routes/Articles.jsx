@@ -139,6 +139,16 @@ const Articles = () => {
       path: "/daytrading",
       date: "07/28/2024, 9:45 P.M.",
     },
+      {
+      id: "sentiment",
+      title: "AI- Sentiment Analysis Machine",
+      description:
+        "This project is an AI-driven Sentiment Analysis Machine that analyzes user input to determine whether the sentiment is positive, negative, or neutral. Developed by Mohamed Gad, it processes text data, visualizes results, and provides insights into sentiment and device usage, all through an intuitive and user-friendly Shiny app interface.",
+      imageUrl:
+        "https://www.dummies.com/wp-content/uploads/deep-learning-sentiment-analysis.jpg",
+      path: "/sentiment",
+      date: "08/14/2024, 9:45 P.M.",
+    },
   ];
 
   return (
