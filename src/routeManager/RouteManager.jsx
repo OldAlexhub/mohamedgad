@@ -22,6 +22,8 @@ import HRCaseStudy from "../Articles/HRCaseStudy";
 import MachineLearning from "../Articles/MachineLearning";
 import Airlines from "../Articles/Airlines";
 import DayTrading from "../Articles/DayTrading";
+import Sentiment from "../Articles/Sentiment";
+
 
 const RouteManager = () => {
   return (
@@ -50,6 +52,7 @@ const RouteManager = () => {
           <Route path="/machinelearning1" element={<MachineLearning />} />
           <Route path="/invistcoairlines" element={<Airlines />} />
           <Route path="/daytrading" element={<DayTrading />} />
+          <Route path="/sentiment" element={<Sentiment />} />
         </Route>
       </Routes>
     </BrowserRouter>
