@@ -2,10 +2,10 @@ import React from "react";
 
 const Sentiment = () => {
   return (
-    <div>
+    <div style={{ width: "100%", height: "100vh", overflow: "hidden" }}>
       <iframe
         src="https://mohamedgad.shinyapps.io/AISentimentmachine/"
-        style={{ width: "1500px", height: "800px", border: "none" }}
+        style={{ width: "100%", height: "100%", border: "none" }}
         title="Dashboard"
       ></iframe>
     </div>
