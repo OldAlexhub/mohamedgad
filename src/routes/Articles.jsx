@@ -159,6 +159,17 @@ const Articles = () => {
       path: "/medical",
       date: "08/15/2024, 10:53 P.M.",
     },
+        {
+      id: "uselections",
+      title:
+        "AI-Driven Sentiment Analysis and Predictive Modeling of Political Figures Using News Data",
+      description:
+        "This project utilizes AI-powered sentiment analysis and predictive modeling to examine public sentiment towards political figures such as Donald Trump and Kamala Harris. By analyzing news articles, the app visualizes sentiment trends, forecasts future opinions, and tracks media mentions, offering insights into the evolving landscape of public opinion.",
+      imageUrl:
+        "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F2b40cbcd-7949-4c29-a42d-6e6fb924c7b9.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+      path: "/uselections",
+      date: "08/18/2024, 03:50 P.M.",
+    },
   ];
 
   return (
