@@ -19,7 +19,6 @@ import PoliticalAnalysis from "../Articles/PoliticalAnalysis";
 import CrimesInDenver from "../Articles/CrimesInDenver";
 import Taxi from "../Articles/Taxi";
 import HRCaseStudy from "../Articles/HRCaseStudy";
-import MachineLearning from "../Articles/MachineLearning";
 import Airlines from "../Articles/Airlines";
 import Sentiment from "../Articles/Sentiment";
 import Medical from "../Articles/Medical";
@@ -51,7 +50,6 @@ const RouteManager = () => {
           <Route path="/crimesindenver" element={<CrimesInDenver />} />
           <Route path="/taxi" element={<Taxi />} />
           <Route path="/HRCaseStudy" element={<HRCaseStudy />} />
-          <Route path="/machinelearning1" element={<MachineLearning />} />
           <Route path="/invistcoairlines" element={<Airlines />} />
           <Route path="/sentiment" element={<Sentiment />} />
           <Route path="/medical" element={<Medical />} />
