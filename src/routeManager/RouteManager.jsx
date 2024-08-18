@@ -24,6 +24,7 @@ import Airlines from "../Articles/Airlines";
 import DayTrading from "../Articles/DayTrading";
 import Sentiment from "../Articles/Sentiment";
 import Medical from "../Articles/Medical";
+import USElections from "../Articles/USElections";
 
 
 const RouteManager = () => {
@@ -55,6 +56,7 @@ const RouteManager = () => {
           <Route path="/daytrading" element={<DayTrading />} />
           <Route path="/sentiment" element={<Sentiment />} />
           <Route path="/medical" element={<Medical />} />
+          <Route path="/uselections" element={<USElections />} />
         </Route>
       </Routes>
     </BrowserRouter>
