@@ -130,16 +130,6 @@ const Articles = () => {
       date: "07/12/2024, 8:38 P.M.",
     },
       {
-      id: "daytrading",
-      title: "Comprehensive Day-Trading Tool",
-      description:
-        "This Shiny app helps you calculate the profit and loss for your stock investments. Enter the quantity of stocks and the price per stock, and specify the desired profit and loss percentages. The app will compute and display the sell prices and the respective profit and loss amounts.",
-      imageUrl:
-        "https://www.newtraderu.com/wp-content/uploads/2023/01/day-trader.jpg",
-      path: "/daytrading",
-      date: "07/28/2024, 9:45 P.M.",
-    },
-      {
       id: "sentiment",
       title: "AI- Sentiment Analysis Machine",
       description:
