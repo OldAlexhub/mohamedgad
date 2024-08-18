@@ -108,16 +108,6 @@ const Articles = () => {
       path: "/HRCaseStudy",
       date: "07/04/2024, 5:13 P.M.",
     },
-      {
-      id: "machinelearning1",
-      title: "A Shiny App for Future Item Prices and Quantities",
-      description:
-        "This machine learning model predicts future sales by forecasting item prices and quantities. It uses historical sales data to build time series models with the prophet library, allowing it to predict future item prices (Items) and quantities (QTY). The model then calculates future sales by multiplying these predicted values. The Shiny app displays these predictions, enabling users to interactively select dates and view detailed sales forecasts.",
-      imageUrl:
-        "https://www.embedded-robotics.com/wp-content/uploads/2022/04/Forecast-Sales-using-Machine-Learning.jpeg",
-      path: "/machinelearning1",
-      date: "07/04/2024, 5:13 P.M.",
-    },
      {
       id: "invistcoairlines",
       title:
