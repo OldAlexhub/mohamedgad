@@ -21,7 +21,6 @@ import Taxi from "../Articles/Taxi";
 import HRCaseStudy from "../Articles/HRCaseStudy";
 import Airlines from "../Articles/Airlines";
 import Sentiment from "../Articles/Sentiment";
-import Medical from "../Articles/Medical";
 import USElections from "../Articles/USElections";
 import HRHiring from "../Articles/HRHiring";
 
@@ -52,7 +51,6 @@ const RouteManager = () => {
           <Route path="/HRCaseStudy" element={<HRCaseStudy />} />
           <Route path="/invistcoairlines" element={<Airlines />} />
           <Route path="/sentiment" element={<Sentiment />} />
-          <Route path="/medical" element={<Medical />} />
           <Route path="/uselections" element={<USElections />} />
           <Route path="/hrhiring" element={<HRHiring />} />
         </Route>
