@@ -129,16 +129,6 @@ const Articles = () => {
       path: "/sentiment",
       date: "08/14/2024, 9:45 P.M.",
     },
-      {
-      id: "medical",
-      title: "AI-Driven Disease Diagnosis System",
-      description:
-        "This project leverages machine learning to create an AI-driven system for diagnosing diseases based on user-reported symptoms. The application predicts potential illnesses, provides detailed information on symptoms, treatments, and emergency statuses, and continuously improves its accuracy by learning from new data inputs",
-      imageUrl:
-        "https://myacare.com/uploads/AdminBlogs/e1d2e2f760064cf9953c83907ddae649.png",
-      path: "/medical",
-      date: "08/15/2024, 10:53 P.M.",
-    },
         {
       id: "uselections",
       title:
