@@ -7,6 +7,8 @@ import "react-calendar/dist/Calendar.css";
 import { format } from "date-fns";
 import Holidays from "date-holidays";
 import "../styles/Home.css";
+import SentimentChart from "../components/Sentiment";
+
 
 const Home = () => {
   const [newsData, setNewsData] = useState([]);
@@ -47,6 +49,9 @@ const Home = () => {
     <div className="container mt-5">
       <div className="text-center mb-4">
         <h1 className="display-4">Welcome to Mohamed Gad's Personal Website</h1>
+        <div>
+          <SentimentChart />
+        </div>
       </div>
       <div className="row">
         <div className="col-md-4">
