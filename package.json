@@ -12,6 +12,8 @@
     "chart.js": "^4.4.1",
     "date-fns": "^3.6.0",
     "date-holidays": "^3.23.12",
+    "chart.js": "^4.4.4",
+    "react-chartjs-2": "^5.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-calendar": "^5.0.0",
