@@ -163,7 +163,7 @@ const Articles = () => {
         <meta property="og:title" content={articles[0].title} />
         <meta property="og:description" content={articles[0].description} />
       </Helmet>
-      <h1 style={{ textAlign: "center" }}>Articles</h1>
+      <h1 style={{ textAlign: "center" }}>Data Analysis & Machine Learning</h1>
       <Row className="g-4">
         {articles.map((article) => (
           <Col key={article.id} md={6} lg={4}>
