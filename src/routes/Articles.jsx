@@ -150,6 +150,16 @@ const Articles = () => {
       path: "/hrhiring",
       date: "08/18/2024, 06:38 P.M.",
     },
+      {
+      id: "worldcup",
+      title: "World Cup AI Predictor",
+      description:
+        "This project leverages AI to simulate and predict outcomes of World Cup matches. Using historical data and machine learning models, the app dynamically generates contests and forecasts the winning teams, offering a compelling demonstration of AI-driven sports analytics and prediction in an interactive Shiny application.",
+      imageUrl:
+        "https://s.france24.com/media/display/e11d4a80-7ee7-11ec-afeb-005056bf30b7/w:980/p:16x9/3562e9830bb570829823a563b55e17ea7d5df954.jpg",
+      path: "/worldcup",
+      date: "08/31/2024, 10:34 P.M.",
+    },
   ];
 
   return (
