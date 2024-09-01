@@ -23,6 +23,7 @@ import Airlines from "../Articles/Airlines";
 import Sentiment from "../Articles/Sentiment";
 import USElections from "../Articles/USElections";
 import HRHiring from "../Articles/HRHiring";
+import Soccer from "../Articles/Soccer";
 
 
 const RouteManager = () => {
@@ -53,6 +54,7 @@ const RouteManager = () => {
           <Route path="/sentiment" element={<Sentiment />} />
           <Route path="/uselections" element={<USElections />} />
           <Route path="/hrhiring" element={<HRHiring />} />
+          <Route path="/worldcup" element={<Soccer />} />
         </Route>
       </Routes>
     </BrowserRouter>
