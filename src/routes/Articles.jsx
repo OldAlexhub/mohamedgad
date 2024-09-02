@@ -146,7 +146,7 @@ const Articles = () => {
       description:
         "Leveraging AI and machine learning, I've developed an app that predicts candidate suitability for hiring. By analyzing key metrics like experience, education, and interview scores, the app provides real-time, data-driven recommendations, empowering HR teams to make informed decisions quickly and efficiently.",
       imageUrl:
-        "https://i.ibb.co/nLqYdm0/DALL-E-2024-08-18-18-41-37-A-realistic-and-AI-driven-cover-image-for-a-Shiny-app-project-that-uses-m.webp",
+        "https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1654569356/1654569355.jpg",
       path: "/hrhiring",
       date: "08/18/2024, 06:38 P.M.",
     },
