@@ -24,6 +24,7 @@ import Sentiment from "../Articles/Sentiment";
 import USElections from "../Articles/USElections";
 import HRHiring from "../Articles/HRHiring";
 import Soccer from "../Articles/Soccer";
+import AIcomplaint from "../Articles/AIcomplaint";
 
 
 const RouteManager = () => {
@@ -55,6 +56,8 @@ const RouteManager = () => {
           <Route path="/uselections" element={<USElections />} />
           <Route path="/hrhiring" element={<HRHiring />} />
           <Route path="/worldcup" element={<Soccer />} />
+          <Route path="/aicomplaint" element={<AIcomplaint />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
