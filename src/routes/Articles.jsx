@@ -160,6 +160,16 @@ const Articles = () => {
       path: "/worldcup",
       date: "08/31/2024, 10:34 P.M.",
     },
+      {
+      id: "AI-Driven Complaint Management Dashboard",
+      title: "AI-Driven Complaint Management Dashboard",
+      description:
+        "This AI-powered webapp provides a comprehensive dashboard for analyzing customer complaints, rerouting them based on department, identifying patterns, and detecting ADA-related issues. Leveraging MongoDB for real-time data retrieval, the app empowers management teams to efficiently resolve issues and enhance overall customer service performance.",
+      imageUrl:
+        "https://www.caseiq.com/wp-content/uploads/2023/04/iStock-995102590-scaled.jpg",
+      path: "/aicomplaint",
+      date: "09/05/2024, 10:34 P.M.",
+    },
   ];
 
   return (
