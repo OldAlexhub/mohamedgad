@@ -25,7 +25,7 @@ import USElections from "../Articles/USElections";
 import HRHiring from "../Articles/HRHiring";
 import Soccer from "../Articles/Soccer";
 import AIcomplaint from "../Articles/AIcomplaint";
-
+import AISmartSearch from "../Articles/AISmartSearch";
 
 const RouteManager = () => {
   return (
@@ -57,7 +57,7 @@ const RouteManager = () => {
           <Route path="/hrhiring" element={<HRHiring />} />
           <Route path="/worldcup" element={<Soccer />} />
           <Route path="/aicomplaint" element={<AIcomplaint />} />
-
+          <Route path="/aismartsearch" element={<AISmartSearch />} />
         </Route>
       </Routes>
     </BrowserRouter>
