@@ -170,6 +170,16 @@ const Articles = () => {
       path: "/aicomplaint",
       date: "09/05/2024, 10:34 P.M.",
     },
+      {
+      id: "AI-Powered Smart Policy Search Web App",
+      title: "AI-Powered Smart Policy Search Web App",
+      description:
+        "This AI-powered Smart Policy Search Web App allows users to quickly find company policies by typing keywords. Leveraging fuzzy matching and a question-answering AI model, it dynamically retrieves relevant policies in real-time, presenting them interactively with a typewriter effect. Built with React, Flask, and Python-based AI.",
+      imageUrl:
+        "https://image.lorman.com/article/blog/56_AdobeStock_106325693.jpeg",
+      path: "/aismartsearch",
+      date: "09/16/2024, 10:30 P.M.",
+    },
   ];
 
   return (
