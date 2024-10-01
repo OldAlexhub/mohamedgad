@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import "../styles/Articles.css";
+import dayjs from "dayjs";
 
 const ProjectDetails = () => {
   const { projectId } = useParams();
@@ -43,7 +44,7 @@ const ProjectDetails = () => {
               |
               <span>
                 <strong> Posted:</strong>{" "}
-                {new Date(project.date).toLocaleDateString()}
+                {dayjs(project.date).format("MMMM D, YYYY")}
               </span>
             </p>
           </header>
