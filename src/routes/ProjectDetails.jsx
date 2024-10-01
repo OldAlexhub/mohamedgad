@@ -6,6 +6,7 @@ import "../styles/Articles.css";
 const ProjectDetails = () => {
   const { projectId } = useParams();
   const [project, setProject] = useState(null);
+  const [error, setError] = useState(null); // Error state
 
   useEffect(() => {
     const fetchProject = async () => {
@@ -18,11 +19,16 @@ const ProjectDetails = () => {
           setProject(response.data.show);
         }
       } catch (error) {
-        console.log(error);
+        console.error("Error fetching project details:", error);
+        setError("Failed to load project details. Please try again later.");
       }
     };
     fetchProject();
   }, [projectId]);
+
+  if (error) {
+    return <div className="error-message">{error}</div>;
+  }
 
   return (
     <div className="article-container mt-3">
@@ -37,7 +43,7 @@ const ProjectDetails = () => {
               |
               <span>
                 <strong> Posted:</strong>{" "}
-                {new Date(project.data).toLocaleDateString()}
+                {new Date(project.date).toLocaleDateString()}
               </span>
             </p>
           </header>
@@ -53,9 +59,9 @@ const ProjectDetails = () => {
               project.overView
                 .split("*")
                 .filter(Boolean)
-                .map((quote, index) => (
-                  <p key={index} className="article-quote">
-                    <q>{quote.trim().replace(/^["']+|["']+$/g, "")}</q>
+                .map((paragraph, index) => (
+                  <p key={index} className="article-paragraph">
+                    {paragraph.trim().replace(/^["']+|["']+$/g, "")}
                   </p>
                 ))}
           </section>
@@ -92,4 +98,5 @@ const ProjectDetails = () => {
 };
 
 export default ProjectDetails;
+
 
