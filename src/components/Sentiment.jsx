@@ -42,6 +42,12 @@ const rawData = [
     "Donald Trump": 0.14,
     "Kamala Harris": 0.15,
   },
+      {
+    month: "October",
+    senti_ver: "Positive",
+    "Donald Trump": 0.15,
+    "Kamala Harris": 0.15,
+  },
 ];
 
 const data = rawData.map((entry) => {
