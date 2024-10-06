@@ -26,7 +26,7 @@ ChartJS.register(
 const Analysis = () => {
   const sectorEfficiency1 = [
     { sector: "Transportation", efficiency: 100 },
-    { sector: "Technology", efficiency: 90 },
+    { sector: "Full Stack Development", efficiency: 90 },
     { sector: "Financial", efficiency: 85 },
     { sector: "HR and Talent", efficiency: 80 },
     { sector: "Retail", efficiency: 75 },
