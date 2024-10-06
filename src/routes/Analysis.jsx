@@ -35,6 +35,7 @@ const Analysis = () => {
     { sector: "Operational Improvement", efficiency: 90 },
     { sector: "Data Management", efficiency: 100 },
     { sector: "Safety and Compliance", efficiency: 85 },
+    { sector: "Machine Learning", efficiency: 95 },
   ];
   const sectorEfficiencyChartData = {
     labels: sectorEfficiency1.map((data) => data.sector),
@@ -58,8 +59,8 @@ const Analysis = () => {
     ],
   };
   const experienceData1 = [
-    { role: "LYNX", duration: 2.8 },
-    { role: "Trans Voyage Taxi", duration: 6 },
+    { role: "LYNX", duration: 3.1 },
+    { role: "Trans Voyage Taxi", duration: 7 },
     { role: "Metro Transportation", duration: 1 },
     { role: "Green Taxi Cooperative", duration: 1 },
     { role: "Mile High Cab Inc", duration: 2 },
