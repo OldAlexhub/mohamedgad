@@ -204,19 +204,15 @@ const Home = () => {
             </p>
             <h3 className="card-title mt-4">Projects</h3>
             <p className="card-text">
-              My projects span a wide range of interests, from developing an EV
-              Battery Degradation Calculator to creating comprehensive web
-              applications for business and transportation management. Each
-              project is a testament to my dedication to leveraging technology
-              to solve real-world problems.
+              My projects span various innovative applications of AI and full-stack development, from building sophisticated EV battery monitoring solutions with VoltAI to transforming business operations with AI-enhanced workflows. I’ve also explored the entertainment sector by developing an AI-powered movie discovery tool, and I’ve created predictive stock analysis apps that leverage data for better market insights. Each project showcases my commitment to leveraging technology for impactful, real-world solutions across diverse domains.
             </p>
             <p className="card-text">
               Some of my notable projects include:
               <ul>
-                <li>AI and Full-Stack Technologies: The Future of Development and My Journey with VoltAI</li>
-                <li>Transforming Business Operations with AI: Enhancing Internal Workflows Across Departments</li>
-                <li>The Future of Movie Discovery: AI-Powered Search by Plot</li>
-                <li>Empowering Stock Market Insights with AI: A Deep Dive into My Predictive Stock Analysis Web App</li>
+                <li>AI-Driven Full-Stack Development: Exploring New Horizons with VoltAI</li>
+                <li>Optimizing Business Workflows with AI: Streamlining Operations Across Departments</li>
+                <li>Revolutionizing Movie Discovery: AI-Powered Search by Plot</li>
+                <li>Unlocking Stock Market Potential with AI: Insights from My Predictive Stock Analysis App</li>
               </ul>
             </p>
             <h3 className="card-title mt-4">Data Analysis</h3>
