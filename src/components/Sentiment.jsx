@@ -45,7 +45,7 @@ const rawData = [
       {
     month: "October",
     senti_ver: "Positive",
-    "Donald Trump": 0.15,
+    "Donald Trump": 0.14,
     "Kamala Harris": 0.15,
   },
 ];
