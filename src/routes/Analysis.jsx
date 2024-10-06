@@ -149,7 +149,7 @@ const Analysis = () => {
   //   "Strategic Business Relationships and Partnerships",
   // ];
 
-  const totalAccumulativeYears = 15; // Calculated total years of experience
+  const totalAccumulativeYears = 16; // Calculated total years of experience
   // const chartOptions = {
   //   responsive: true,
   //   maintainAspectRatio: true, // You can adjust aspect ratio according to your needs
