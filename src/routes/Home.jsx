@@ -213,11 +213,10 @@ const Home = () => {
             <p className="card-text">
               Some of my notable projects include:
               <ul>
-                <li>EV Battery Degradation Calculator</li>
-                <li>Travel and Transportation Web Application</li>
-                <li>Business and Ticketing Management</li>
-                <li>Movie Web-App V1</li>
-                <li>Comprehensive Taxi Application</li>
+                <li>AI and Full-Stack Technologies: The Future of Development and My Journey with VoltAI</li>
+                <li>Transforming Business Operations with AI: Enhancing Internal Workflows Across Departments</li>
+                <li>The Future of Movie Discovery: AI-Powered Search by Plot</li>
+                <li>Empowering Stock Market Insights with AI: A Deep Dive into My Predictive Stock Analysis Web App</li>
               </ul>
             </p>
             <h3 className="card-title mt-4">Data Analysis</h3>
@@ -233,9 +232,9 @@ const Home = () => {
               <ul>
                 <li>Comprehensive Analysis of Car Sales Data</li>
                 <li>Human Resources Dataset Analysis</li>
-                <li>SuperStore Sales Dashboard</li>
+                <li>HR Hiring Decision Tool</li>
                 <li>HR Dashboard Visualization</li>
-                <li>EV Sales in Washington State</li>
+                <li>Sentiment Analysis: Trump vs Harris</li>
                 <li>
                   Unveiling Global Happiness: A Deep Dive into World Happiness
                   Data (2015-2020)
