@@ -5,184 +5,172 @@ import Egypt from "../images/egypt.png";
 const Hobbies = () => {
   return (
     <div className="container my-5">
-      <h2 className="mb-4 text-center">Hobbies</h2>
+      <h2 className="mb-4 text-center">Hobbies & Interests</h2>
       <div className="row">
-        <div className="col-md-6 mx-auto">
-          {/* Soccer Section */}
-          <div className="hobby mb-3">
-            <h3 className="mb-3">Soccer</h3>
-            <p className="text-justify">
-              A fervent fan of the beautiful game, I find joy and excitement in
-              following soccer closely. My heart belongs to the illustrious{" "}
-              <img
-                src={Ahly}
-                alt="Al Ahly SC"
-                className="img-fluid rounded-circle me-2"
-                style={{ width: "24px", height: "24px" }}
-              />
-              <strong>Egyptian Al Ahly SC</strong>, a team renowned for its rich
-              history and record-breaking achievements in African football.
-              Additionally, I proudly support the{" "}
-              <img
-                src={Egypt}
-                alt="Egyptian National Team"
-                className="img-fluid rounded-circle me-2"
-                style={{ width: "24px", height: "24px" }}
-              />
-              <strong>Egyptian National Team</strong>, drawing inspiration from
-              their spirited performances on the international stage. Beyond
-              mere spectating, I actively engage in playing soccer, often taking
-              up the role of a center midfielder. This position allows me to
-              orchestrate the game, demonstrating my strategic understanding and
-              physical agility. Whether it's celebrating a victory or analyzing
-              a match, soccer is a significant part of my life.
-            </p>
+        {/* Soccer Section */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card shadow-sm">
+            <div className="card-body">
+              <h3 className="card-title">Soccer</h3>
+              <p className="card-text">
+                A fervent fan of the beautiful game, I follow soccer closely. My
+                heart belongs to{" "}
+                <img
+                  src={Ahly}
+                  alt="Al Ahly SC"
+                  className="rounded-circle me-2"
+                  style={{ width: "24px", height: "24px" }}
+                />
+                <strong>Al Ahly SC</strong> and the{" "}
+                <img
+                  src={Egypt}
+                  alt="Egyptian National Team"
+                  className="rounded-circle me-2"
+                  style={{ width: "24px", height: "24px" }}
+                />
+                <strong>Egyptian National Team</strong>. I also play as a center
+                midfielder, demonstrating strategy and agility.
+              </p>
+            </div>
           </div>
+        </div>
 
-          {/* Music Section */}
-          <div className="hobby mb-3">
-            <h3 className="mb-3">Music</h3>
-            <p className="text-justify">
-              Music is a universal language that resonates deeply with me,
-              connecting me to diverse cultures and emotions. My musical taste
-              spans genres and eras, reflecting my appreciation for both the
-              classics and contemporary sounds. I am an absolute fan of{" "}
-              <strong>Mohamed Mounir</strong>, whose music is not just sound but
-              an expression of Egyptian soul and identity. His songs are a blend
-              of Nubian rhythms and philosophical insights, accompanied by his
-              charismatic voice.
-            </p>
-            <p className="text-justify">
-              The legendary <strong>Bob Marley</strong> and his reggae music
-              have always inspired me with messages of love, peace, and
-              resistance. Marley's ability to convey profound truths through his
-              music has left a lasting impact on my life. Similarly, the iconic
-              rock bands <strong>Aerosmith</strong> and <strong>Queen</strong>{" "}
-              have fueled my passion for rock music with their groundbreaking
-              sound and electrifying performances.
-            </p>
-            <p className="text-justify">
-              Additionally, I hold a special place in my heart for{" "}
-              <strong>Cairokee</strong>, an Egyptian rock band that beautifully
-              merges rock tunes with Egyptian lyrics, capturing the essence of
-              modern Egyptian society and its challenges. Their music speaks to
-              the youth, encouraging change and self-expression.
-            </p>
-            <div className="d-flex justify-content-start align-items-center mb-2">
-              <img
-                src="https://www.gqmiddleeast.com/public/styles/full_img_sml/public/images/2020/12/17/MohamedMounir_GQMOTY2020_2.jpg"
-                alt="Mohamed Mounir"
-                className="img-fluid rounded-circle me-2"
-                style={{ width: "50px", height: "50px" }}
-              />
-
-              <img
-                src="https://blog.richmond.edu/heroes/files/2021/03/Bob-Marley.jpeg"
-                alt="Bob Marley"
-                className="img-fluid rounded-circle me-2"
-                style={{ width: "50px", height: "50px" }}
-              />
-
-              <img
-                src="https://miro.medium.com/v2/resize:fit:600/1*6dlDil8oYQiU_kkwp7aruw.png"
-                alt="Aerosmith"
-                className="img-fluid rounded-circle me-2"
-                style={{ width: "50px", height: "50px" }}
-              />
-
-              <img
-                src="https://yt3.googleusercontent.com/X1hxG_g3g4zgQhkwPK1Q_InYbxGSjwAHdoZQWPG1Fp8cUDgMWi7j0MudKSuFYMLTvKYm9RjR44o=s900-c-k-c0x00ffffff-no-rj"
-                alt="Queen"
-                className="img-fluid rounded-circle me-2"
-                style={{ width: "50px", height: "50px" }}
-              />
-
-              <img
-                src="https://ih1.redbubble.net/image.3946544875.3307/raf,750x1000,075,t,101010:01c5ca27c6.jpg"
-                alt="Cairokee"
-                className="img-fluid rounded-circle me-2"
-                style={{ width: "50px", height: "50px" }}
-              />
-            </div>
-            {/* Arabic Poetry Section */}
-            <div className="hobby mb-3">
-              <h3 className="mb-3">Egyptian Poetry</h3>
-              <p className="text-justify">
-                My passion for literature deeply intertwines with my love for
-                Arabic poetry, an art form that paints emotions and narratives
-                with the beauty of words. Esteemed Egyptian poets like{" "}
-                <strong>Abdel Rahman al-Abnoudy</strong>, known for his
-                vernacular verse that vividly captures the essence of Egyptian
-                folk life; <strong>Salah Jahin</strong>, whose quatrains blend
-                wisdom, humor, and political satire;{" "}
-                <strong>Ahmed Fouad Negm</strong>, celebrated for his daring
-                colloquial poetry that voices the struggles and aspirations of
-                the common people; and <strong>Magdy Naguib</strong>, who adds a
-                contemporary touch to the tradition, have all profoundly
-                influenced my perception and appreciation of Arabic poetry.
-                Their works not only entertain but also challenge me to reflect
-                on societal issues, personal identity, and the human condition
-                at large.
+        {/* Music Section */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card shadow-sm">
+            <div className="card-body">
+              <h3 className="card-title">Music</h3>
+              <p className="card-text">
+                My musical interests are diverse, ranging from{" "}
+                <strong>Mohamed Mounir</strong> and <strong>Cairokee</strong> to{" "}
+                <strong>Bob Marley</strong>, <strong>Aerosmith</strong>, and{" "}
+                <strong>Queen</strong>. Music transcends cultures and speaks to
+                the soul.
               </p>
-              <p className="text-justify">
-                These poets, among many others, represent a rich tapestry of
-                Egyptian cultural heritage, offering insights into the complex
-                layers of Middle Eastern history, society, and philosophy.
-                Engaging with their poetry allows me to connect with my roots
-                and explore the depth of Arabic linguistic artistry.
+              <div className="d-flex justify-content-start align-items-center">
+                {/* Musician Images */}
+                <img
+                  src="https://www.gqmiddleeast.com/public/styles/full_img_sml/public/images/2020/12/17/MohamedMounir_GQMOTY2020_2.jpg"
+                  alt="Mohamed Mounir"
+                  className="rounded-circle me-2"
+                  style={{ width: "40px", height: "40px" }}
+                />
+                <img
+                  src="https://blog.richmond.edu/heroes/files/2021/03/Bob-Marley.jpeg"
+                  alt="Bob Marley"
+                  className="rounded-circle me-2"
+                  style={{ width: "40px", height: "40px" }}
+                />
+                <img
+                  src="https://miro.medium.com/v2/resize:fit:600/1*6dlDil8oYQiU_kkwp7aruw.png"
+                  alt="Aerosmith"
+                  className="rounded-circle me-2"
+                  style={{ width: "40px", height: "40px" }}
+                />
+                <img
+                  src="https://ih1.redbubble.net/image.3946544875.3307/raf,750x1000,075,t,101010:01c5ca27c6.jpg"
+                  alt="Cairokee"
+                  className="img-fluid rounded-circle me-2"
+                  style={{ width: "50px", height: "50px" }}
+                />
+                <img
+                  src="https://www.the-sun.com/wp-content/uploads/sites/6/2022/11/members-brian-roger-taylor-freddie-555539482.jpg?w=620"
+                  alt="Queen"
+                  className="img-fluid rounded-circle me-2"
+                  style={{ width: "50px", height: "50px" }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Egyptian Poetry Section */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card shadow-sm">
+            <div className="card-body">
+              <h3 className="card-title">Egyptian Poetry</h3>
+              <p className="card-text">
+                I have a deep appreciation for Arabic poetry, especially works
+                by <strong>Abdel Rahman al-Abnoudy</strong>,{" "}
+                <strong>Salah Jahin</strong>, and{" "}
+                <strong>Ahmed Fouad Negm</strong>. Their poems capture the
+                essence of Egyptian culture and folklore.
               </p>
             </div>
-            <div className="hobby mb-3">
-              <h3 className="mb-3">Coding - JavaScript</h3>
-              <p className="text-justify">
-                My journey into the world of coding has been transformative,
-                offering a creative outlet and a means to solve problems and
-                build solutions. Among various programming languages,{" "}
-                <strong>JavaScript</strong> holds a special place in my heart.
-                Its versatility and capability to bring websites to life
-                fascinate me. From developing dynamic web applications to
-                experimenting with the latest frameworks and libraries,
-                JavaScript continues to offer endless possibilities for
-                innovation. The thrill of coding, debugging, and seeing my ideas
-                materialize into functional, interactive elements on the web
-                fuels my passion for continuous learning and development in the
-                tech field.
+          </div>
+        </div>
+
+        {/* Coding Section */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card shadow-sm">
+            <div className="card-body">
+              <h3 className="card-title">Coding - JavaScript</h3>
+              <p className="card-text">
+                JavaScript has been a gateway to creativity and innovation for
+                me. Its versatility allows me to build interactive web
+                applications and experiment with new frameworks and libraries.
               </p>
             </div>
-            {/* World Politics Section */}
-            <div className="hobby mb-3">
-              <h3 className="mb-3">World Politics</h3>
-              <p className="text-justify">
-                As a political scientist, holding a BA degree in Political
-                Science, my fascination with the global political landscape goes
-                beyond mere interest; it's a part of who I am. The intricate
-                dance of diplomacy, the strategies of international relations,
-                and the dynamic shifts in power on the world stage captivate me.
-                I thrive in dissecting political theories, analyzing current
-                events, and predicting future trends. This passion not only
-                defines my academic pursuits but also shapes my perspective on
-                global issues, driving me to explore the complexities of
-                governance, policy-making, and social justice across different
-                cultures and countries. The political world stage is not just an
-                area of professional interest; it is where I find myself,
-                constantly learning and evolving with each unfolding event.
+          </div>
+        </div>
+
+        {/* World Politics Section */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card shadow-sm">
+            <div className="card-body">
+              <h3 className="card-title">World Politics</h3>
+              <p className="card-text">
+                With a BA in Political Science, I have a keen interest in
+                analyzing political theories, current events, and international
+                relations. My passion for politics shapes my perspective on
+                global issues.
               </p>
             </div>
-                        {/* Data Science Section */}
-            <div className="hobby mb-3">
-              <h3 className="mb-3">Data Science</h3>
-              <p className="text-justify">
-                My passion for Data Science is driven by the power of data to
-                transform businesses and uncover insights. I utilize tools like{" "}
-                <strong>R</strong> and <strong>Python</strong> for advanced data
-                analysis and machine learning. <strong>Excel</strong> is my
-                go-to for quick data manipulation and visualization.{" "}
-                <strong>Tableau</strong> and <strong>Power BI</strong> are
-                invaluable for creating dynamic, interactive dashboards that
-                communicate complex data clearly and effectively. The
-                combination of these tools allows me to tackle diverse data
-                challenges and continuously explore the vast possibilities
-                within the field of Data Science.
+          </div>
+        </div>
+
+        {/* Data Science Section */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card shadow-sm">
+            <div className="card-body">
+              <h3 className="card-title">Data Science</h3>
+              <p className="card-text">
+                I utilize tools like <strong>R</strong>, <strong>Python</strong>
+                , and <strong>Tableau</strong> to analyze data and create
+                dashboards. My goal is to leverage data to drive insights and
+                solve complex problems.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Machine Learning and AI Section */}
+        <div className="col-md-12 mb-4">
+          <div className="card shadow-lg">
+            <div className="card-body">
+              <h3 className="card-title">Machine Learning and AI</h3>
+              <p className="card-text">
+                My journey into Machine Learning and AI has been fueled by a
+                fascination with data-driven intelligence and automation. I
+                often build full-stack applications that integrate MERN with
+                Python, utilizing AI for predictive modeling, natural language
+                processing, and recommendation systems.
+              </p>
+              <p className="card-text">
+                Whether it's developing predictive algorithms for stock
+                analysis, building AI-powered search engines, or creating
+                intelligent solutions for business automation, I am dedicated to
+                harnessing the power of AI to transform ideas into impactful
+                realities.
+              </p>
+              <p className="card-text">
+                I am particularly passionate about deep learning and its
+                applications in computer vision and NLP. Leveraging libraries
+                like TensorFlow, Keras, and PyTorch, I experiment with models
+                that classify images, process language, and even generate new
+                content. My projects are a testament to my commitment to staying
+                at the forefront of AI innovation and bringing cutting-edge
+                solutions to life.
               </p>
             </div>
           </div>
