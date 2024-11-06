@@ -49,9 +49,7 @@ const Home = () => {
     <div className="container mt-5">
       <div className="text-center mb-4">
         <h1 className="display-4">Welcome to Mohamed Gad's Personal Website</h1>
-        <div>
-          <SentimentChart />
-        </div>
+
       </div>
       <div className="row">
         <div className="col-md-4">
