@@ -59,8 +59,8 @@ const Analysis = () => {
     ],
   };
   const experienceData1 = [
-    { role: "LYNX", duration: 3.1 },
-    { role: "Trans Voyage Taxi", duration: 7 },
+    { role: "LYNX", duration: 3.2 },
+    { role: "Trans Voyage Taxi", duration: 8 },
     { role: "Metro Transportation", duration: 1 },
     { role: "Green Taxi Cooperative", duration: 1 },
     { role: "Mile High Cab Inc", duration: 2 },
