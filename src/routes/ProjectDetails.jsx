@@ -44,7 +44,7 @@ const ProjectDetails = () => {
               |
               <span>
                 <strong> Posted:</strong>{" "}
-                {dayjs(project.date).format("MMMM D, YYYY")}
+                {dayjs(project.data).format("MMMM D, YYYY")}
               </span>
             </p>
           </header>
