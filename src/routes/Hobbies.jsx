@@ -50,7 +50,7 @@ const Hobbies = () => {
               <div className="d-flex justify-content-start align-items-center">
                 {/* Musician Images */}
                 <img
-                  src="https://www.gqmiddleeast.com/public/styles/full_img_sml/public/images/2020/12/17/MohamedMounir_GQMOTY2020_2.jpg"
+                  src="https://i1.sndcdn.com/avatars-000030352866-6ew8md-t240x240.jpg"
                   alt="Mohamed Mounir"
                   className="rounded-circle me-2"
                   style={{ width: "40px", height: "40px" }}
