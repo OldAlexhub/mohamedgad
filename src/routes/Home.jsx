@@ -85,14 +85,14 @@ const Home = () => {
                 ></Link>
               </li>
               <li className="list-group-item list-group-item-action">
-                Full Stack Projects- MERN Technology{" "}
+                Full Stack Projects- MERN Technology + AI/ML{" "}
                 <Link
                   to="/projects"
                   className="stretched-link text-decoration-none text-dark"
                 ></Link>
               </li>
               <li className="list-group-item list-group-item-action">
-                Data Analysis and Machine Learning Projects{" "}
+                Data Analysis{" "}
                 <Link
                   to="/articles"
                   className="stretched-link text-decoration-none text-dark"
