@@ -44,7 +44,7 @@ const Portfolio = () => {
             <li>Salesforce (CRM)</li>
             <li>Microsoft (MSFT)</li>
             <li>Tesla (TSLA)</li>
-            <li>Ford (F)</li>
+            <li>Nvidia (NVDA)</li>
           </ul>
         </div>
 
